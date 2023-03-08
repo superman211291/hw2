@@ -3,8 +3,21 @@ public class Main {
         task1();
         task2();
         task3();
+        task4();
 
 
+
+    }
+
+    private static void task4() {
+        System.out.println("Задача 4");
+        int productivity = 16;
+        int min = 2;
+        int productivityForOneMin = productivity / min;
+        System.out.println("За 20 минут машина произвела " + productivityForOneMin * 20 + " штук бутылок");
+        System.out.println("За сутки машина произвела " + productivityForOneMin * 60 * 24 + " штук бутылок");
+        System.out.println("За 3 дня машина произвела " + productivityForOneMin * 60 * 24 * 3 + " штук бутылок");
+        System.out.println("За месяц машина произвела " + productivityForOneMin * 60 * 24 * 30 + " штук бутылок");
     }
 
     private static void task3() {
