@@ -6,6 +6,20 @@ public class Main {
         task4();
         task5();
         task6();
+        task7();
+
+
+    }
+
+    private static void task7() {
+        System.out.println("Задача 7");
+        float weight = 7.0f;
+        float subWeigth250Gr = 0.25f;
+        float subWeigth500Gr = 0.5f;
+        float daysSub250Grams = weight / subWeigth250Gr;
+        float daysSub500Grams = weight / subWeigth500Gr;
+        System.out.println("При сбросе веса на 250 грам в день спртсмен сбросит 7 кило через - " + daysSub250Grams + " дней");
+        System.out.println("При сбросе веса на 500 грам в день спртсмен сбросит 7 кило через - " + daysSub500Grams + " дней");
 
     }
 
