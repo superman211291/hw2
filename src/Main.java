@@ -1,6 +1,18 @@
 public class Main {
     public static void main(String[] args) {
         task1();
+        task2();
+
+    }
+
+    private static void task2() {
+        float first = 27.12f;
+        long second = 987_678_965_549L;
+        double third = 2.786d;
+        int fourth = 569;
+        short fifth = - 159;
+        int sixth = 27897;
+        byte seventh = 67;
     }
 
     private static void task1() {
