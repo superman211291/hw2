@@ -5,10 +5,18 @@ public class Main {
         task3();
         task4();
         task5();
+        task6();
 
+    }
 
-
-
+    private static void task6() {
+        System.out.println("Задача 6");
+        float weightBananas = 5 * 80.0f;
+        float weightMilk = 2 * 105.0f;
+        float weightIceCream = 2 * 100.0f;
+        float weightEggs = 4 * 70.0f;
+        float weightInKilograms = (weightEggs +weightIceCream + weightMilk + weightBananas) / 1000;
+        System.out.println("Вес коктеля в килограммах - " + weightInKilograms);
     }
 
     private static void task5() {
