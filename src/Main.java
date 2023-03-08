@@ -7,8 +7,22 @@ public class Main {
         task5();
         task6();
         task7();
+        task8();
 
 
+    }
+
+    private static void task8() {
+        System.out.println("Задача 8");
+        float mashaSalary = 67_760.0f;
+        float denisSalary = 83_690.0f;
+        float kristinaSalary = 76_230f;
+        float newMashaSalary = mashaSalary / 100 * 10 + mashaSalary;
+        float newDenisSalary = denisSalary / 100 * 10 + denisSalary;
+        float newKristinaSalary = kristinaSalary / 100 * 10 + kristinaSalary;
+        System.out.println("Маша теперь получает " + newMashaSalary + " рублей. Годовой доход вырос на " + (newMashaSalary-mashaSalary)*12 + " рублей");
+        System.out.println("Маша теперь получает " + newDenisSalary + " рублей. Годовой доход вырос на " + (newDenisSalary-denisSalary)*12 + " рублей");
+        System.out.println("Маша теперь получает " + newKristinaSalary + " рублей. Годовой доход вырос на " + (newKristinaSalary-kristinaSalary)*12 + " рублей");
     }
 
     private static void task7() {
