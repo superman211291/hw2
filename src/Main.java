@@ -2,7 +2,20 @@ public class Main {
     public static void main(String[] args) {
         task1();
         task2();
+        task3();
 
+
+    }
+
+    private static void task3() {
+        System.out.println("Задача 3");
+        int ludmilaPavlovnaStudents = 23;
+        int annaSergeevnaStudents = 27;
+        int ekaterinaAndreevnaStudents = 30;
+        int sheetsOfPaper = 480;
+        int students = ludmilaPavlovnaStudents + annaSergeevnaStudents +ekaterinaAndreevnaStudents;
+        int sheetsOfPaperForStudent = sheetsOfPaper / students;
+        System.out.println("На каждого ученика рассчитано " + sheetsOfPaperForStudent + " листов бумаги");
     }
 
     private static void task2() {
