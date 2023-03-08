@@ -6,6 +6,7 @@ public class Main {
     }
 
     private static void task2() {
+        System.out.println("Задача 2");
         float first = 27.12f;
         long second = 987_678_965_549L;
         double third = 2.786d;
