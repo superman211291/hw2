@@ -4,9 +4,22 @@ public class Main {
         task2();
         task3();
         task4();
+        task5();
 
 
 
+
+    }
+
+    private static void task5() {
+        System.out.println("Задача 5");
+        int countCansOfPaint = 120;
+        int brownColorForClass = 4;
+        int whiteColorForClass =2;
+        int countOfClasses = countCansOfPaint / (brownColorForClass +whiteColorForClass);
+        int brownCansOfPaint = brownColorForClass * countOfClasses;
+        int whiteCansOfPaint = whiteColorForClass * countOfClasses;
+        System.out.println("В школе, где " + countOfClasses + " классов, нужно " + whiteCansOfPaint + " банок белой краски и " + brownCansOfPaint + " банок коричневой краски");
     }
 
     private static void task4() {
