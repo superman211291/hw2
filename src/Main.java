@@ -42,6 +42,17 @@ public class Main {
 
     private static void task1() {
         System.out.println("Задача 1");
-
+        int age1 = 17;
+        int age2 = 19;
+        if (age1 >= 18) {
+            System.out.println("Если возраст человека равен " + age1 + ", он совершеннолетний");
+        } else {
+            System.out.println("Если возраст человека равен " + age1 + ", он не достиг совершеннолетия, нужно немного подождать»");
+        }
+        if (age2>=18) {
+            System.out.println("Если возраст человека равен " + age2 + ", он совершеннолетний");
+        } else {
+            System.out.println("Если возраст человека равен " + age2 + ", он не достиг совершеннолетия, нужно немного подождать»");
+        }
     }
 }
