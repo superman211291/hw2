@@ -37,6 +37,19 @@ public class Main {
 
     private static void task2() {
         System.out.println("Задача 2");
+        float temperature1 = 12.5f;
+        float temperature2 =4.7f;
+        if (temperature1 < 5.0f) {
+            System.out.println("На улице " + temperature1 +" градусов, нужно надеть шапку");
+        } else {
+            System.out.println("На улице " + temperature1 +" градусов, можно идти без шапки");
+        }
+        if (temperature2 < 5.0f) {
+            System.out.println("На улице " + temperature2 +" градусов, нужно надеть шапку");
+        } else {
+            System.out.println("На улице " + temperature2 +" градусов, можно идти без шапки");
+        }
+
 
     }
 
