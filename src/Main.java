@@ -14,11 +14,38 @@ public class Main {
 
     private static void task7() {
         System.out.println("Задача 7");
+        int our = 102;
+        int seat = 60;
+        int passengers = 103;
+        if (passengers>our){
+            System.out.println("Вагон полностью забит!");
+        } else if (passengers<our && passengers>seat) {
+            System.out.println("В вагоне осталось "+(our-passengers)+" стоячих мест.");
+        } else if (passengers<seat) {
+            System.out.println("В вагоне осталось "+(our-seat)+" стоячих мест и " + (seat-passengers) + " сидячих мест.");
+        }
+        passengers = 99;
+        if (passengers>our){
+            System.out.println("Вагон полностью забит!");
+        } else if (passengers<our && passengers>seat) {
+            System.out.println("В вагоне осталось "+(our-passengers)+" стоячих мест.");
+        } else if (passengers<seat) {
+            System.out.println("В вагоне осталось "+(our-seat)+" стоячих мест и " + (seat-passengers) + " сидячих мест.");
+        }
 
+        passengers = 38;
+        if (passengers>our){
+            System.out.println("Вагон полностью забит!");
+        } else if (passengers<our && passengers>seat) {
+            System.out.println("В вагоне осталось "+(our-passengers)+" стоячих мест.");
+        } else if (passengers<seat) {
+            System.out.println("В вагоне осталось "+(our-seat)+" стоячих мест и " + (seat-passengers) + " сидячих мест.");
+        }
     }
 
     private static void task6() {
         System.out.println("Задача 6");
+
     }
 
     private static void task5() {
