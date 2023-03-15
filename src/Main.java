@@ -13,12 +13,21 @@ public class Main {
 
 
     private static void task7() {
-
+        System.out.println("Задача 7");
+        int one = 10;
+        int two = 5;
+        int three = 20;
+        if (one>two && one>three){
+            System.out.println("Наибольшее число из трех - one = "+one);
+        } else if (two>one && two>three) {
+            System.out.println("Наибольшее число из трех - two = "+two);
+        } else if (three>one && three>two) {
+            System.out.println("Наибольшее число из трех - three = "+three);
+        }
     }
 
     private static void task6() {
         System.out.println("Задача 6");
-        System.out.println("Задача 7");
         int our = 102;
         int seat = 60;
         int passengers = 103;
