@@ -13,6 +13,11 @@ public class Main {
 
 
     private static void task7() {
+
+    }
+
+    private static void task6() {
+        System.out.println("Задача 6");
         System.out.println("Задача 7");
         int our = 102;
         int seat = 60;
@@ -41,11 +46,6 @@ public class Main {
         } else if (passengers<seat) {
             System.out.println("В вагоне осталось "+(our-seat)+" стоячих мест и " + (seat-passengers) + " сидячих мест.");
         }
-    }
-
-    private static void task6() {
-        System.out.println("Задача 6");
-
     }
 
     private static void task5() {
