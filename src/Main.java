@@ -32,6 +32,18 @@ public class Main {
 
     private static void task3() {
         System.out.println("Задача 3");
+        int speed = 90;
+        int speed2 =45;
+        if(speed>60){
+            System.out.println("Если скорость " + speed + ", то придется заплатить штраф");
+        }else{
+            System.out.println("Если скорость " + speed + ", то можно ездить спокойно");
+        }
+        if(speed2>60){
+            System.out.println("Если скорость " + speed2 + ", то придется заплатить штраф");
+        }else{
+            System.out.println("Если скорость " + speed2 + ", то можно ездить спокойно");
+        }
 
     }
 
