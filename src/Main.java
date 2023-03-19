@@ -20,7 +20,22 @@ public class Main {
 
     private static void task4() {
         System.out.println("Задача 4");
-
+        int deliveryDistance = 95;
+        int daysOfDelivery = 0;
+        if (deliveryDistance < 20){
+            daysOfDelivery = 1;
+        } else if (deliveryDistance>=20 && deliveryDistance<60) {
+            daysOfDelivery = 2;
+        } else if (deliveryDistance>=60 && deliveryDistance <=100) {
+            daysOfDelivery = 3;
+        } else{
+            daysOfDelivery =0;
+        }
+        if (daysOfDelivery > 0) {
+            System.out.println("Потребуется дней: " + daysOfDelivery);
+        } else{
+            System.out.println("Доставки нет!");
+        }
 
     }
 
