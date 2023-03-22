@@ -18,6 +18,13 @@ public class Main {
 
     private static void task9() {
         System.out.println("Задача 9");
+        float money = 29_000;
+        float percent = 12;
+        float summ=0;
+        for (int i = 1; i <= 12; i++) {
+            summ=money + summ + ((money + summ)/100)*(percent/12);
+            System.out.println("Месяц "+ i +", сумма накоплений равна "+ summ +" рублей");
+        }
     }
 
     private static void task8() {
