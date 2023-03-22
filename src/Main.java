@@ -25,21 +25,43 @@ public class Main {
 
     private static void task6() {
         System.out.println("Задача 6");
+        float percent = 7;
+        float money = 15_000;
+        float sum = 0;
+        float countMounth = 0 ;
+        while (countMounth< 9 * 12){
+            sum=money + sum + ((money + sum)/100)*(percent/12);
+            countMounth++;
+            if (countMounth%6==0 || countMounth> 9 * 12 ) {
+                System.out.println("Сумма накоплений в " + countMounth + " месяц - " + sum);
+            }
+        }
 
     }
 
     private static void task5() {
         System.out.println("Задача 5");
-
+        float percent = 7;
+        float money = 15_000;
+        float finishSum = 12_000_000;
+        float sum = 0;
+        int countMounth =0 ;
+        while (sum < finishSum){
+            sum=money + sum + ((money + sum)/100)*(percent/12);
+            countMounth++;
+            if (countMounth%6==0 || sum > finishSum) {
+                System.out.println("Сумма накоплений в " + countMounth + " месяц - " + sum);
+            }
+        }
 
     }
 
     private static void task4() {
         System.out.println("Задача 4");
-        long percent = 7;
-        long money = 15_000;
-        long finishSum = 12_000_000;
-        long sum = 0;
+        float percent = 7;
+        float money = 15_000;
+        float finishSum = 12_000_000;
+        float sum = 0;
         int countMounth =0 ;
         while (sum < finishSum){
             sum=money + sum + ((money + sum)/100)*(percent/12);
