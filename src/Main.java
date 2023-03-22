@@ -36,13 +36,13 @@ public class Main {
 
     private static void task4() {
         System.out.println("Задача 4");
-        double percent = 7;
-        double money = 15_000;
-        double finishSum = 12_000_000;
-        double sum = 0;
+        long percent = 7;
+        long money = 15_000;
+        long finishSum = 12_000_000;
+        long sum = 0;
         int countMounth =0 ;
         while (sum < finishSum){
-            sum = sum+money + ((sum+money) * (percent/12));
+            sum=money + sum + ((money + sum)/100)*(percent/12);
             countMounth++;
             System.out.println("Сумма накоплений в " + countMounth +" месяц - "+sum);
         }
