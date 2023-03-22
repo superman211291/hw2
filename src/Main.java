@@ -30,6 +30,10 @@ public class Main {
 
     private static void task6() {
         System.out.println("Задача 6");
+        for (int i = 7; i <= 98 ; i=i+7) {
+            System.out.print(i + " ");
+        }
+        System.out.println();
     }
 
     private static void task5() {
