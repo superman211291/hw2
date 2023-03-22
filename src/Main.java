@@ -14,6 +14,11 @@ public class Main {
 
     private static void task10() {
         System.out.println("Задача 10");
+        int result ;
+        for (int i = 1; i <= 10; i++) {
+            result= 2*i;
+            System.out.println("2*"+i+"="+result);
+        }
     }
 
     private static void task9() {
