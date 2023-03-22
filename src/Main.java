@@ -10,7 +10,6 @@ public class Main {
         task8();
         task9();
         task10();
-
     }
 
     private static void task10() {
