@@ -22,6 +22,12 @@ public class Main {
 
     private static void task8() {
         System.out.println("Задача 8");
+        int money = 29_000;
+        int summ=0;
+        for (int i = 1; i <= 12; i++) {
+            summ=money + summ;
+            System.out.println("Месяц "+ i +", сумма накоплений равна "+ summ +" рублей");
+        }
     }
 
     private static void task7() {
