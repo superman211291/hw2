@@ -41,7 +41,17 @@ public class Main {
 
     private static void task3() {
         System.out.println("Задача 3");
-
+        int humans = 12_000_000;
+        int come = 17; //17/1000
+        int died = 8; //8/1000
+        int sumComeHumans ;
+        int sumDiedHumans ;
+        for (int i = 1; i <= 10; i++) {
+            sumComeHumans = (humans / 1000)*come;
+            sumDiedHumans = (humans/1000)*died;
+            humans = humans+sumComeHumans-sumDiedHumans;
+            System.out.println("Год "+ i +", численность населения составляет "+humans);
+        }
     }
 
     private static void task2() {
