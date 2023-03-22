@@ -46,11 +46,28 @@ public class Main {
 
     private static void task2() {
         System.out.println("Задача 2");
-
+        int i=1;
+        while (i<10){
+            System.out.print(i +" ");
+            i++;
+        }
+        System.out.println();
+        for (int j = 10; j > 0; j--) {
+            System.out.print(j + " ");
+        }
+        System.out.println();
     }
 
     private static void task1() {
         System.out.println("Задача 1");
+        int money = 15_000;
+        int summ = 0;
+        int mounthCount =0;
+        while (summ < 2_459_000){
+            summ = summ+money;
+            mounthCount++;
+            System.out.println("Месяц "+ mounthCount +", сумма накоплений равна "+ summ +" рублей");
+        }
 
     }
 }
