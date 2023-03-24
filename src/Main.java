@@ -20,7 +20,17 @@ public class Main {
 
     private static void task7() {
         System.out.println("Задача 7");
-
+        int firstFriday = 10;
+        int countMouth =1;
+        int remains = 0;
+        int i = 1;
+        while (countMouth <= 12) {
+            for (i=firstFriday+remains; i <= 31; i = i + 7) {
+                System.out.println("Сегодня пятница, "+ i +"-е число. Необходимо подготовить отчет");
+            }
+            remains = i- 31-firstFriday;
+            countMouth++;
+        }
     }
 
     private static void task6() {
