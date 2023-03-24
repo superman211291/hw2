@@ -15,6 +15,15 @@ public class Main {
 
     private static void task8() {
         System.out.println("Задача 8");
+        int before200Year = 2023 - 200;
+        int after100Year = 2023 + 100;
+        int year = 0;
+        while (year <= after100Year){
+            year = year + 79;
+            if (year>= before200Year && year<=after100Year){
+                System.out.println(year);
+            }
+        }
 
     }
 
