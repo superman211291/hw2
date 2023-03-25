@@ -49,7 +49,7 @@ public class Main {
         while (countMounth < 9 * 12) {
             sum = sum + (sum / 100 * percent);
             countMounth++;
-            if (countMounth % 6 == 0 || countMounth > 9 * 12) {
+            if (countMounth % 6 == 0) {
                 System.out.println("Сумма накоплений в " + countMounth + " месяц - " + sum);
             }
         }
