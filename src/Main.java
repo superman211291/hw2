@@ -19,7 +19,7 @@ public class Main {
         int year = 0;
         while (year <= after100Year) {
             year = year + 79;
-            if (year >= before200Year && year <= after100Year) {
+            if (year >= before200Year) {
                 System.out.println(year);
             }
         }
@@ -28,7 +28,7 @@ public class Main {
 
     private static void task7() {
         System.out.println("Задача 7");
-        int firstFriday = 10;
+        int firstFriday = 3;
         int countMouth = 1;
         int remains = 0;
         int i;
