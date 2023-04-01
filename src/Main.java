@@ -1,3 +1,5 @@
+import java.util.Arrays;
+
 public class Main {
     public static void main(String[] args) {
         task1();
@@ -22,6 +24,15 @@ public class Main {
     }
     private static void task2() {
         System.out.println("Задача 2");
+        int[] arr = generateRandomArray();
+        int max = arr[0];
+        int min = arr[0];
+        for (int i : arr) {
+            if (i > max) max = i;
+            if (i < min) min = i;
+        }
+        System.out.println(Arrays.toString(arr));
+        System.out.println("Минимальная сумма трат за день составила "+ min +" рублей. Максимальная сумма трат за день составила " + max +" рублей");
     }
 
     private static void task1() {
