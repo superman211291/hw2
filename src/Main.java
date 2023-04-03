@@ -7,6 +7,9 @@ public class Main {
 
     private static void task3() {
         System.out.println("Задача 3");
+        String fullName = "Иванов Семён Семёнович";
+        fullName = fullName.replace('ё', 'e');
+        System.out.println("Данные ФИО сотрудника — " + fullName);
     }
 
     private static void task2() {
