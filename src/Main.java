@@ -1,7 +1,31 @@
+import java.time.LocalDate;
+
 public class Main {
     public static void main(String[] args) {
         task1(2021);
-        task2(0,2014);
+        int currentYear = LocalDate.now().getYear();
+        task2(0,currentYear);
+        int daysOfDelivery = task3(25);
+        if (daysOfDelivery > 0) {
+            System.out.println("Потребуется дней: " + daysOfDelivery);
+        } else{
+            System.out.println("Доставки нет!");
+        }
+    }
+
+    private static int task3(int deliveryDistance) {
+        System.out.println("Задача 3");
+        int daysOfDelivery = 0;
+        if (deliveryDistance < 20){
+            daysOfDelivery = 1;
+        } else if (deliveryDistance>=20 && deliveryDistance<60) {
+            daysOfDelivery = 2;
+        } else if (deliveryDistance>=60 && deliveryDistance <=100) {
+            daysOfDelivery = 3;
+        } else{
+            daysOfDelivery =0;
+        }
+        return daysOfDelivery;
     }
 
     private static void task2(int clientOS, int yearOS) {
